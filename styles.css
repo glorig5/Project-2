@@ -1,0 +1,14 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  
+  .navbar-brand img {
+    max-height: 50px; /* Ensures logo fits well */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    gap: 15px; /* Adds spacing between nav items */
+  }
