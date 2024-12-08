@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: silver!important;
+  background-color: darkgray!important;
 }
 #nav {
     display: flex;
@@ -62,7 +62,6 @@ body {
   grid-template-rows: repeat(4, auto); /* Creates 4 rows with automatic height */
   gap: 10px; /* Adds space between grid items */
   padding: 20px; /* Adds padding around the grid */
-  background-color: #f4f4f4; /* Optional: Background for the container */
 }
 .grid-item1{
   grid-column:1/-1 ;
@@ -80,6 +79,9 @@ body {
   padding: 10px;
   border-radius: 5px;
 }
+.grid-item4{
+  grid-column: 1/-1;
+}
 .subtitle{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -91,7 +93,11 @@ body {
 
   .grid-item1,
   .grid-item2,
-  .grid-item3 {
+  .grid-item3,
+  .grid-item4,
+  .grid-item5,
+  .grid-item6,
+  .grid-item7 {
     grid-column: 1 / -1; /* Each item spans the full width */
   }
 }
