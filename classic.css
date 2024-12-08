@@ -1,0 +1,46 @@
+.grid-container {
+    display: grid; /* Enables grid layout */
+    grid-template-columns: 1fr 350px 1fr; 
+    grid-template-rows: repeat(4, auto); /* Creates 4 rows with automatic height */
+    gap: 10px; /* Adds space between grid items */
+    padding: 20px; /* Adds padding around the grid */
+    background-color: #f4f4f4; /* Optional: Background for the container */
+  }
+  .grid-item {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    text-align: center; /* Center text horizontally */
+    padding: 2px; /* Add spacing inside items */
+    font-size: 1.2em; /* Adjust font size */
+    border-radius: 5px; /* Optional: Rounded corners */
+  }
+  .carousel {
+    width: 50%; /* Full width */
+    height: 700px; /* Viewport height, so it takes up the full height of the screen */
+    /* overflow: scroll; */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-item img {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover;
+  }
+  .carousel-inner img {
+    object-fit: cover;
+    /* height: 500px;  */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a background for better visibility */
+    border-radius: 50%;
+  }
+  .carousel {
+    width: 100%; /* Ensures carousel spans the full cell width */
+    max-width: 300px; /* Optional: Restrict maximum width */
+    margin: auto; /* Center horizontally within its grid cell */
+    padding:0;
+  }
+  
