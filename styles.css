@@ -83,11 +83,14 @@ body {
   grid-column: 1/-1;
 }
 .subtitle{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "UnifrakturMaguntia", serif;
 }
 .favicon{
   height: 20px;
   width:30px;
+}
+span{
+  font-family: "UnifrakturMaguntia", serif;
 }
 
 @media (max-width: 768px) {

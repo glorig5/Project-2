@@ -22,4 +22,24 @@
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
   }
-  
+  .grid-item {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .row{
+    margin: 10px;
+  }
+  .card{
+    background-color: black;
+    color: white;
+  }
+  button.join{
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+    font-family: "UnifrakturMaguntia", serif;
+  }
