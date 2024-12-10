@@ -14,33 +14,12 @@
     font-size: 1.2em; /* Adjust font size */
     border-radius: 5px; /* Optional: Rounded corners */
   }
-  .carousel {
-    width: 50%; /* Full width */
-    height: 700px; /* Viewport height, so it takes up the full height of the screen */
-    /* overflow: scroll; */
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .carousel-item img {
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    object-fit: cover;
-  }
-  .carousel-inner img {
-    object-fit: cover;
-    /* height: 500px;  */
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5); /* Add a background for better visibility */
-    border-radius: 50%;
-  }
-  .carousel {
-    width: 100%; /* Ensures carousel spans the full cell width */
-    max-width: 300px; /* Optional: Restrict maximum width */
-    margin: auto; /* Center horizontally within its grid cell */
-    padding:0;
+  .classicbanner{
+    display:inline-block;
+    height: 300px;
+    width:100%;
+    border: solid black 5px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
   }
   

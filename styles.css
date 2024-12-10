@@ -85,6 +85,10 @@ body {
 .subtitle{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.favicon{
+  height: 20px;
+  width:30px;
+}
 
 @media (max-width: 768px) {
   .grid-container {
