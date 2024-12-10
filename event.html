@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <link href="event.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -44,6 +45,132 @@
         </div>
       </nav>
     </header>
-    
+    <video autoplay muted loop class="background" id="video">
+      <source src="reeltape.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="content">
+      <h3 class="grid-item subtitle">Come Join the Movie National Collective</h3>
+      <!-- <p class="grid-item">Our mission is to cultivate a vibrant and inclusive community where movie buffs can connect, share their love for film, and explore the boundless magic of the silver screen.</p> -->
+      <p class="grid-item">Click through below to see our schedule of events</p>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Movie Discussions
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><p><strong>December 2024 Movie Discussion Schedule</strong></p>
+              <ul>
+                <li><strong>December 12: Casablanca (1942)</strong><br>
+                  <em>Theme:</em> Romance, sacrifice, and wartime moral dilemmas.<br>
+                  <em>Discussion Points:</em> The impact of WWII on personal relationships, iconic lines, and the role of heroes in times of war.</li>
+              
+                <li><strong>December 19: The Godfather (1972)</strong><br>
+                  <em>Theme:</em> Family, power, and loyalty.<br>
+                  <em>Discussion Points:</em> The role of family in shaping identity, how power corrupts, and the significance of the Godfather as a cultural icon.</li>
+              
+                <li><strong>December 26: Singin' in the Rain (1952)</strong><br>
+                  <em>Theme:</em> The transition from silent films to talkies.<br>
+                  <em>Discussion Points:</em> The evolution of cinema, Hollywood's golden age, and challenges of the 1920s film industry.</li>
+              </ul>
+              
+              <p><strong>January 2025 Movie Discussion Schedule</strong></p>
+              <ul>
+                <li><strong>January 2: Citizen Kane (1941)</strong><br>
+                  <em>Theme:</em> Ambition, memory, and the American Dream.<br>
+                  <em>Discussion Points:</em> Innovative filmmaking techniques, "Rosebud," and the film’s exploration of power and corruption.</li>
+              
+                <li><strong>January 9: Deadpool 3 (2024)</strong><br>
+                  <em>Theme:</em> Superhero comedy, self-awareness, and multiverse.<br>
+                  <em>Discussion Points:</em> The blending of humor and action, the integration of the multiverse, and Ryan Reynolds' portrayal of Deadpool as a break from traditional superhero norms.</li>
+              
+                <li><strong>January 16: Wicked (2024)</strong><br>
+                  <em>Theme:</em> Friendship, ambition, and fate.<br>
+                  <em>Discussion Points:</em> The dynamic between Elphaba and Glinda, the film's exploration of good versus evil, and its cultural impact as a stage-to-screen adaptation.</li>
+              
+                <li><strong>January 23: Dune: Part Two (2024)</strong><br>
+                  <em>Theme:</em> Power, destiny, and rebellion.<br>
+                  <em>Discussion Points:</em> Paul's rise among the Fremen, themes of predestination, the political intrigue between the Harkonnens and the Atreides, and Denis Villeneuve's vision.</li>
+              
+                <li><strong>January 30: Despicable Me 4 (2024)</strong><br>
+                  <em>Theme:</em> Family, villainy, and redemption.<br>
+                  <em>Discussion Points:</em> Gru's evolution, the role of humor in animated storytelling, and how the film continues to explore themes of villainy in a family-friendly context.</li>
+              </ul></div>
+              <!-- Code formatted from Chatgpt the prompt was "how can I format text in a bulleted list form?" -->
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Screen Viewings
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><p><strong>December 2024 Screen Viewing Schedule</strong></p>
+              <ul>
+                <li><strong>December 12: Casablanca (1942)</strong><br>
+                  <em>Screening Details:</em> A wartime romance filled with iconic moments and unforgettable characters. Time: 7 PM, Venue: Cinema Hall A.</li>
+                
+                <li><strong>December 19: The Godfather (1972)</strong><br>
+                  <em>Screening Details:</em> Experience the epic tale of power, loyalty, and betrayal on the big screen. Time: 7 PM, Venue: Cinema Hall B.</li>
+                
+                <li><strong>December 26: Singin' in the Rain (1952)</strong><br>
+                  <em>Screening Details:</em> A celebration of Hollywood's transition from silent films to talkies. Time: 6 PM, Venue: Cinema Hall C.</li>
+              </ul>
+              
+              <p><strong>January 2025 Screen Viewing Schedule</strong></p>
+              <ul>
+                <li><strong>January 2: Citizen Kane (1941)</strong><br>
+                  <em>Screening Details:</em> Witness the story of ambition and legacy, complete with innovative visuals. Time: 7 PM, Venue: Cinema Hall A.</li>
+              
+                <li><strong>January 9: Deadpool 3 (2024)</strong><br>
+                  <em>Screening Details:</em> Laugh out loud at this irreverent take on superhero antics. Time: 8 PM, Venue: Cinema Hall B.</li>
+                
+                <li><strong>January 16: Wicked (2024)</strong><br>
+                  <em>Screening Details:</em> Relive the magical story of Oz with stunning visuals and music. Time: 6:30 PM, Venue: Cinema Hall C.</li>
+                
+                <li><strong>January 23: Dune: Part Two (2024)</strong><br>
+                  <em>Screening Details:</em> A breathtaking sci-fi epic that explores power and destiny. Time: 7 PM, Venue: Cinema Hall A.</li>
+                
+                <li><strong>January 30: Despicable Me 4 (2024)</strong><br>
+                  <em>Screening Details:</em> A fun-filled family movie experience with Gru and the Minions. Time: 5 PM, Venue: Cinema Hall B.</li>
+              </ul>
+              </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Join the Collectors
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><p><strong>To join our fun club and get exculsive access to even more exciting content then you see here join your email below</strong></p>
+              <em><label for="email" class="input"> Email:</label><input type="text" id="email" class="input"></em> <br> <br>
+              <em><button type="button" >Submit</button></em>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              About Us
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><p><strong>About Us</strong></p> 
+              <ul>
+              <li><i>History:</i> Founded by a group of cinephiles who banded together to create a haven for movie enthusiasts, Movie National Collective started as a humble movie club in a basement, but quickly grew into a thriving community of film lovers.</li>
+              <li><i>Background:</i> With a passion for all things cinema, Movie National Collective aims to bring people together to celebrate the art of filmmaking, from classic masterpieces to the latest blockbusters, through screenings, discussions, and events.</li>
+              <li><i>Mission Statement:</i> Our mission is to cultivate a vibrant and inclusive community where movie buffs can connect, share their love for film, and explore the boundless magic of the silver screen.</li>
+            </ul>
+        </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
 </body>
 </html>
