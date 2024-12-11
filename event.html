@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <link href="event.css" rel="stylesheet">
+    <script src="event.js"></script>
 </head>
 <body>
     <header>
@@ -148,8 +149,23 @@
           </h2>
           <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body"><p><strong>To join our fun club and get exculsive access to even more exciting content then you see here join your email below</strong></p>
-              <em><label for="email" class="input"> Email:</label><input type="text" id="email" class="input"></em> <br> <br>
-              <em><button type="button" >Submit</button></em>
+              <form id="funClubForm" onsubmit="showModal(event)">
+                <label for="email" class="input">Email:</label>
+                <input type="email" id="email" class="input" required>
+                <br><br>
+                <div class="submit-container">
+                  <button type="submit" class="submit button">Submit</button>
+                </div>
+              </form>
+              <div id="id01" class="submit-modal" style="display: none;">
+                <div class="submit-content">
+                  <div class="submit-container">
+                    <span onclick="closeModal()" class="submit button display-topright">&times;</span>
+                    <p>We have sent a confirmation email to you!</p>
+                    <p>Welcome to Movie National Collective!</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
