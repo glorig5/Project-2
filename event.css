@@ -63,5 +63,16 @@
     text-align: center;
     justify-content: center;
 }
-  
+h3.grid-item.subtitle{
+  background-image: linear-gradient(90deg,red,blue);
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  text-decoration: none;
+  transition: background-size 450ms ease;
+}
+h3.grid-item.subtitle:hover{
+  background-size: 100% 3px;
+}
+
   
