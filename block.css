@@ -31,7 +31,12 @@
     .card{
         margin: 10px;
     }
-    .classicbanner{
+    .blockbanner{
         height: 200px;
+    }
+  }
+  @media (max-width: 480px) {
+    .blockbanner{
+        height: 100px;
     }
   }
